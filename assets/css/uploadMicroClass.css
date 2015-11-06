@@ -1,0 +1,23 @@
+section {
+    width: 90%;
+    padding: 0 5%;
+}
+.mc-head {
+    margin-top: 12px;
+}
+.mc-head input {
+    width: 96%;
+    height: 30px;
+    margin: 4px auto;
+    border-radius: 5px;
+    padding: 0 2%;
+    line-height: 30px;
+}
+
+.toolbar-form .weui_btn {
+    display: inline-block;
+    width: 48%;
+}
+.toolbar-form .weui_btn.toolbar-save {
+    margin-right: 10px;
+}

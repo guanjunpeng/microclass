@@ -1,0 +1,50 @@
+body {
+    font-family: "Microsoft YaHei", simsun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+* {
+    outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+code,
+pre {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: "Microsoft YaHei", simsun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+
+
+
+
+
+
+
+@media all and (-webkit-min-device-pixel-ratio: 0) {
+    /* 这里单独设置Safari的样式 */
+}
