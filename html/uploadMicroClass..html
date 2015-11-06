@@ -10,24 +10,26 @@
     <title>上传课件</title>
 </head>
 <body>
-    <section>
-        <input type="text" placeholder="请输入课件标题"/>
-        <input type="text" placeholder="课件标签"/>
-        <p>
-            <span class="tag-box">小学语文<i class="remove"></i></span>
-            <span class="tag-box">散文<i class="remove"></i></span>
+    <section class="mc-head">
+        <input class="mc-title" type="text" placeholder="请输入课件标题"/>
+        <input class="mc-tag" type="text" placeholder="课件标签"/>
+        <p class="tag-box">
+            <span class="tag-list">小学语文<i class="remove"></i></span>
+            <span class="tag-list">散文<i class="remove"></i></span>
         </p>
     </section>
-    <section>
-        <textarea></textarea>
-        <p><img src="" alt="课件图片"/></p>
-    </section>
-    <section>
-        <span>文字</span><span>图片</span><span>视频</span><span>声音</span>
+
+    <section class="courseware-box">
+        <textarea class="courseware-text"></textarea>
+        <p class="courseware-img"><img src="" alt="课件图片"/></p>
     </section>
 
-    <section>
-        <span>保存</span><span>发布</span>
+    <section class="toolbar-box">
+        <span class="toolbar-text">文字</span><span class="toolbar-img">图片</span><span class="toolbar-video">视频</span><span class="toolbar-voice">声音</span>
+    </section>
+
+    <section class="toolbar-form">
+        <span class="toolbar-save">保存</span><span class="toolbar-release">发布</span>
     </section>
 </body>
 </html>
