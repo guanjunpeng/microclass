@@ -3,7 +3,9 @@ section {
     padding: 0 5%;
 }
 .mc-head {
-    margin-top: 12px;
+    margin: 12px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c1c1c1;
 }
 .mc-head input {
     width: 96%;
@@ -13,6 +15,42 @@ section {
     padding: 0 2%;
     line-height: 30px;
 }
+
+.mc-head .tag-box {
+    width: 90%;
+    height: 20px;
+    margin: 8px auto;
+    line-height: 20px;
+}
+.tag-box span.tag-list {
+    height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid #c1c1c1;
+    border-radius: 5px;
+    position: relative;
+}
+span.tag-list .remove {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../img/icon-remove.png") no-repeat center;
+    background-size: 14px;
+    position: absolute;
+    top: -6px;
+    right: -2px;
+}
+.courseware-box .courseware-text {
+    width: 96%;
+    min-height: 72px;
+    padding: 0 2%;
+    line-height: 24px;
+    overflow: hidden;
+    resize: none;
+}
+
+
 
 .toolbar-form .weui_btn {
     display: inline-block;
